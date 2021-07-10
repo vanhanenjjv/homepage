@@ -1,7 +1,17 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://vanhanen.dev",
-    title: "homepage",
+    siteUrl: "https://www.vanhanen.dev",
+    title: "homepage"
   },
-  plugins: [],
-};
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typescript`,
+      options: {
+        isTSX: true,
+        jsxPragma: `jsx`, 
+        allExtensions: true
+      }
+    },
+    'gatsby-plugin-emotion'
+  ]
+}

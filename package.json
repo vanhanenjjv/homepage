@@ -15,8 +15,21 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "autoprefixer": "^10.3.0",
+    "fp-ts": "^2.10.5",
     "gatsby": "^3.9.0",
+    "gatsby-plugin-typescript": "^3.9.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@types/node": "^16.3.1",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "gatsby-plugin-emotion": "^6.9.0",
+    "twin.macro": "^2.6.2"
   }
 }
